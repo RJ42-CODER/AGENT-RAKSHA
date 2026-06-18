@@ -1,0 +1,134 @@
+{
+  "patients": [
+    {
+      "id": "P001",
+      "name": "Priya Sharma",
+      "age": 34,
+      "blood_type": "B+",
+      "diagnosis": "Pneumonia",
+      "medications": [
+        "Amlodipine 5mg",
+        "Losartan 50mg",
+        "Azithromycin 500mg",
+        "Azithromycin 500mg",
+        "Amlodipine 5mg, Losartan 50mg, Azithromycin 500mg",
+        "Azithromycin 500mg"
+      ],
+      "appointments": [
+        "2025-07-01 10:00 AM - Dr. Mehta",
+        "2025-07-10 10:00 AM - Dr. Mehta",
+        "2025-07-10 10:00 AM - Dr. Mehta"
+      ],
+      "records_locked": false
+    },
+    {
+      "id": "P002",
+      "name": "Rahul Mehta",
+      "age": 67,
+      "blood_type": "O+",
+      "diagnosis": "Type 2 Diabetes",
+      "medications": [
+        "Metformin 500mg",
+        "Glipizide 5mg"
+      ],
+      "appointments": [
+        "2025-07-02 2:00 PM - Dr. Kapoor"
+      ],
+      "records_locked": false
+    },
+    {
+      "id": "P003",
+      "name": "Ananya Iyer",
+      "age": 28,
+      "blood_type": "A-",
+      "diagnosis": "Asthma",
+      "medications": [
+        "Salbutamol inhaler",
+        "Fluticasone 100mcg"
+      ],
+      "appointments": [
+        "2025-07-03 11:00 AM - Dr. Singh"
+      ],
+      "records_locked": false
+    }
+  ],
+  "hospital": {
+    "name": "MediGuard Hospital",
+    "ransomware_active": false,
+    "ransom_note": ""
+  },
+  "audit_logs": [
+    {
+      "timestamp": "2026-06-18T21:33:00.361495",
+      "user": "dr_mehta",
+      "action": "VIEW_PATIENT",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": ""
+    },
+    {
+      "timestamp": "2026-06-18T21:33:00.373693",
+      "user": "dr_mehta",
+      "action": "UPDATE_DIAGNOSIS",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": "Pneumonia -> Pneumonia"
+    },
+    {
+      "timestamp": "2026-06-18T21:33:00.398437",
+      "user": "dr_mehta",
+      "action": "ADD_MEDICATION",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": "Azithromycin 500mg"
+    },
+    {
+      "timestamp": "2026-06-18T21:33:00.426006",
+      "user": "dr_mehta",
+      "action": "SCHEDULE_APPOINTMENTS",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": "2025-07-10 10:00 AM | Dr. Mehta"
+    },
+    {
+      "timestamp": "2026-06-18T21:46:49.125587",
+      "user": "dr_mehta",
+      "action": "VIEW_PATIENT",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": ""
+    },
+    {
+      "timestamp": "2026-06-18T21:46:49.148810",
+      "user": "dr_mehta",
+      "action": "ADD_MEDICATION",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": "Amlodipine 5mg, Losartan 50mg, Azithromycin 500mg"
+    },
+    {
+      "timestamp": "2026-06-18T21:49:52.671950",
+      "user": "dr_mehta",
+      "action": "VIEW_PATIENT",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": ""
+    },
+    {
+      "timestamp": "2026-06-18T21:49:52.695235",
+      "user": "dr_mehta",
+      "action": "ADD_MEDICATION",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": "Azithromycin 500mg"
+    },
+    {
+      "timestamp": "2026-06-18T21:59:15.987483",
+      "user": "dr_mehta",
+      "action": "VIEW_PATIENT",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": ""
+    }
+  ]
+}
