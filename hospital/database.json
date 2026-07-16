@@ -129,6 +129,22 @@
       "target": "Priya Sharma",
       "status": "SUCCESS",
       "details": ""
+    },
+    {
+      "timestamp": "2026-07-16T18:52:58.662141",
+      "user": "dr_mehta",
+      "action": "VIEW_PATIENT",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": ""
+    },
+    {
+      "timestamp": "2026-07-16T18:59:03.136252",
+      "user": "dr_mehta",
+      "action": "VIEW_PATIENT",
+      "target": "Priya Sharma",
+      "status": "SUCCESS",
+      "details": ""
     }
   ]
 }
